@@ -23,8 +23,13 @@ body* {
 }
 header {
   margin-bottom: 63px; /*Espaço abaixo*/
+  text-align: center;
 }
-
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 .card {
   padding: 32px 32px;
   text-align: center;
