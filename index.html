@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My calendar</title>
-</head>
-<body>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendário de jogos-NLW COPA</title>
+    <!-- Linha 11: REL=
+    É qual o tipo de relacionamento, no caso é o stylesheet e Href= é o atributo
+    que especifica o endereço de aonde está -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2? família=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="app">
-        <header>
-            <img src="./assets/logo.svg" alt="">
-        </header>
-        <main id="cards">
-            <div>
-                <h2>21/11 <span>Quinta</span> </h2>
-
-                <ul>
-                    <li>
-                        <img src="./assets/icon-brazil.svg" alt="Brasi">
-                        <strong>7:00</strong>
-                        <img src="./assets/icon-servia.svg" alt="">
-                    </li>
-                </ul>
-            </div>
-        </main>
-     </div>   
-</body>
+      <header>
+        <img src="./assets/logo.svg" alt="Logo da NLW" />
+      </header>
+      <main class="card">
+        <div class="Cards">
+          <h2>24/11 <span>Quinta</span></h2>
+          <ul>
+            <li>
+              <img src="./assets/icon-brazil.svg" alt="Bandeira do Brasil" />
+              <strong>16:00</strong>
+              <img src="./assets/icon-servia.svg" alt="Bandeira da Sérvia" />
+            </li>
+            <li>
+              <img src="./assets/icon-brazil.svg" alt="Bandeira do Brasil" />
+              <strong>16:00</strong>
+              <img src="./assets/icon-servia.svg" alt="Bandeira da Sérvia" />
+            </li>
+            <li>
+              <img src="./assets/icon-brazil.svg" alt="Bandeira do Brasil" />
+              <strong>16:00</strong>
+              <img src="./assets/icon-servia.svg" alt="Bandeira da Sérvia" />
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>

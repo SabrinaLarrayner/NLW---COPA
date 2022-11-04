@@ -1,0 +1,73 @@
+/*Linha:2/ body/head etc... são selector do que contém no html, o que são inserido dentro do "{}" são propriedades que  gera os valor. Declaração-> (Sector->Body {propiedade-> background: valor-< black})*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*seletor univesal, onde vai pegar todos os elemenos*/
+ul {
+  list-style: none;
+}
+body {
+  background: #121214;
+  background-image: url(../assets/bg.svg);
+  /* eixo x os quatros canto = orizontal */
+  background-position-x: center;
+  background-position-y: 55.6%;
+}
+body* {
+  fonte-família: "Roboto", sans-serif;
+}
+#app {
+  width: fit-content;
+  margin: 52px auto;
+}
+header {
+  margin-bottom: 63px; /*Espaço abaixo*/
+}
+
+.card {
+  padding: 32px 32px;
+  text-align: center;
+  background: #1d1c19;
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 6px;
+}
+.card h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  justify-content: center;
+  border: 1px solid #746615;
+  border-radius: 6px; /*bordas boleadas*/
+  margin-bottom: 53px;
+  color: #f7dd43;
+}
+.card h2 span {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase; /*uppercase = caixa alta*/
+}
+.card ul li {
+  display: flex; /*desbloquear as propriedades*/
+  align-items: center;
+  justify-content: space-between;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* gap é o espaço entre os elementos*/
+  width: 270px;
+}
+
+.card ul li + li /* o sinal de mais, significa que tem outro seletor anterior*/ {
+  padding-top: 22px;
+  border-top: 1px solid;
+}
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color: #e1e1e6;
+}
