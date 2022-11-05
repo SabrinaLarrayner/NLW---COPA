@@ -7,9 +7,11 @@ function creatGame(player1, hour, player2) {
   </li>
       `
 }
+let delay = -0.4
 function creatCard(date, day, games) {
+  delay = delay + 0.4
   return `
-  <div class="Cards">
+  <div class="Cards" style="animation-delay: ${delay}s">
           <h2>${date}<span>${day}</span></h2>
           <ul>
            ${games}
@@ -20,7 +22,7 @@ function creatCard(date, day, games) {
 document.querySelector("#app").innerHTML = `
 
   <header>
-        <img src="./assets/logo.svg" alt="Logo da NLW" />
+        <img class="img1" src="./assets/logo.svg" alt="Logo da NLW" />
       </header>
       <main id="card">
         ${creatCard(
