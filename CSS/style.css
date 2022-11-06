@@ -14,7 +14,7 @@ body.blue {
   --card-color-primary: #3384f3;
   --card-title-boder-color: #3384f3;
   --card-bg-color: #202024;
-  --bg: url(../assets/bg-blue.svg);
+  --bg: url(../assets/bg-yellow.svg);
 }
 body.green {
   --card-color-primary: #047c3f;
@@ -31,15 +31,16 @@ body {
   background-position-y: top;
   background-position-x: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   /* eixo x os quatros canto = orizontal */
 }
 body* {
-  fonte-família: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 #app {
   width: fit-content;
-  margin: 52px auto;
+  margin: auto;
+  padding-top: 52px;
 }
 header {
   margin-bottom: 63px; /*Espaço abaixo*/
@@ -88,7 +89,7 @@ header {
 
 .Cards ul li + li /* o sinal de mais, significa que tem outro seletor anterior*/ {
   padding-top: 22px;
-  border-top: 1px solid;
+  border-top: 1px solid #323238;
 }
 .Cards ul li strong {
   font-weight: 900;

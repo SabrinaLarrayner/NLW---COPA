@@ -26,28 +26,18 @@ document.querySelector("#app").innerHTML = `
       </header>
       <main id="card">
         ${creatCard(
-          "24/11",
+          "24/11/2022",
           "Quinta",
           creatGame("brazil", "16:00", "servia") +
-            creatGame("india", "15:45", "britis")
-        )}
-        ${creatCard(
-          "28/11",
-          "Segunda",
-          creatGame("brazil", "13:00", "swit") +
-            creatGame("armenia", "22:45", "swit")
-        )}
-        ${creatCard(
-          "12/12",
-          "Sexta",
-          creatGame("camaron", "16:00", "brazil") +
+            creatGame("india", "15:45", "britis") +
             creatGame("camaron", "16:00", "brazil")
         )}
-         ${creatCard(
-           "12/12",
-           "Sexta",
-           creatGame("camaron", "16:00", "brazil") +
-             creatGame("camaron", "16:00", "brazil")
-         )}
+        ${creatCard(
+          "28/11/2022",
+          "Segunda",
+          creatGame("brazil", "13:00", "swit") +
+            creatGame("armenia", "22:45", "camaron") +
+            creatGame("armenia", "08:35", "swit")
+        )}
       </main>
 `
