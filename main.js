@@ -23,21 +23,21 @@ document.querySelector("#app").innerHTML = `
 
   <header>
         <img class="img1" src="./assets/logo.svg" alt="Logo da NLW" />
-      </header>
-      <main id="card">
-        ${creatCard(
-          "24/11/2022",
-          "Quinta",
-          creatGame("brazil", "16:00", "servia") +
-            creatGame("india", "15:45", "britis") +
-            creatGame("camaron", "16:00", "brazil")
-        )}
-        ${creatCard(
-          "28/11/2022",
-          "Segunda",
-          creatGame("brazil", "13:00", "swit") +
-            creatGame("armenia", "22:45", "camaron") +
-            creatGame("armenia", "08:35", "swit")
-        )}
+  </header>
+  <main id="card">
+    ${creatCard(
+      "24/11/2022",
+      "Quinta",
+      creatGame("brazil", "16:00", "servia") +
+        creatGame("india", "15:45", "britis") +
+        creatGame("camaron", "16:00", "brazil")
+    )}
+    ${creatCard(
+      "28/11/2022",
+      "Segunda",
+      creatGame("brazil", "13:00", "swit") +
+        creatGame("armenia", "22:45", "camaron") +
+        creatGame("armenia", "08:35", "swit")
+    )}
       </main>
 `

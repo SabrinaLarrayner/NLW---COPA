@@ -8,13 +8,12 @@
   --card-color-primary: #f7dd43;
   --card-title-boder-color: #746615;
   --card-bg-color: #1d1c19;
-  --bg: url(../assets/bg-yellow.svg);
 }
 body.blue {
   --card-color-primary: #3384f3;
   --card-title-boder-color: #3384f3;
   --card-bg-color: #202024;
-  --bg: url(../assets/bg-yellow.svg);
+  --bg: url(../assets/bg-blue.svg);
 }
 body.green {
   --card-color-primary: #047c3f;
@@ -38,9 +37,14 @@ body* {
   font-family: "Roboto", sans-serif;
 }
 #app {
-  width: fit-content;
-  margin: auto;
-  padding-top: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/bg-yellow.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
 }
 header {
   margin-bottom: 63px; /*Espaço abaixo*/
