@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} /*seletor univesal, onde vai pegar todos os elemenos*/
+} /*seletor univesal, onde vai pegar todos os elementos*/
 :root {
   --card-color-primary: #f7dd43;
   --card-title-boder-color: #746615;
@@ -41,7 +41,7 @@ body* {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/bg-yellow.svg);
+  background-image: url(../assets/bg-green.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;

@@ -28,16 +28,16 @@ document.querySelector("#app").innerHTML = `
     ${creatCard(
       "24/11/2022",
       "Quinta",
-      creatGame("brazil", "16:00", "servia") +
-        creatGame("india", "15:45", "britis") +
-        creatGame("camaron", "16:00", "brazil")
+      creatGame("jordan", "10:45", "servia") +
+        creatGame("india", "15:30", "britis") +
+        creatGame("camaron", "21:15", "brazil")
     )}
     ${creatCard(
       "28/11/2022",
       "Segunda",
-      creatGame("brazil", "13:00", "swit") +
-        creatGame("armenia", "22:45", "camaron") +
-        creatGame("armenia", "08:35", "swit")
+      creatGame("brazil", "09:00", "swit") +
+        creatGame("south", "11:00", "camaron") +
+        creatGame("armenia", "17:45", "swit")
     )}
       </main>
 `
